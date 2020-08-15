@@ -1,5 +1,5 @@
 # kaldi_toy_example by Pedro Fonseca Esteves
-Toy example to illustrate how to use kaldi recipes.
+Toy example inspired by kaldi for dummies.
 
 This tutorial is a very hands-on pratical introduction to kaldi (a modern toolkit used for ASR and other Speech Processing tasks). The only pre-requisites are having kaldi installed. 
 
@@ -18,3 +18,5 @@ Command to downsample(There is a need to create a tmp directory for the downsamp
 ```
 mkdir tmp; for file in *.wav; do sox ${file} -r 16000 ./tmp/${file}; done 
 ```
+
+- data: This will be the directory used in the experiment with the data already downsampled and convert to wav. Untouched is only for pedagogic purposes.
