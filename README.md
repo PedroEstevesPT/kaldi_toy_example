@@ -19,4 +19,6 @@ Command to downsample(There is a need to create a tmp directory for the downsamp
 mkdir tmp; for file in *.wav; do sox ${file} -r 16000 ./tmp/${file}; done 
 ```
 
-- data: This will be the directory used in the experiment with the data already downsampled and convert to wav. Untouched is only for pedagogic purposes. Inside this directory in the **train** and **test** folder there are already the 5 required files mentioned in the kaldi for dummies tutorial (spk2gender,wav.scp,text,utt2spk and corpus.txt). In the **local** folder there are the 4 files needed for the language data (lexicon.txt,nonsilence_phones.txt,silence_phones.txt and optional silence).
+- data: This will be the directory used in the experiment with the data already downsampled and convert to wav. Untouched is only for pedagogic purposes. Inside this directory in the **train** and **test** folder there are already the 5 required files mentioned in the kaldi for dummies tutorial (spk2gender,wav.scp,text,utt2spk and corpus.txt). In the **local** folder there are the 4 files needed for the language data (lexicon.txt, nonsilence_phones.txt, silence_phones.txt and optional silence).score.sh in local allows us to get metrics such as WER and SER to evaluate the system.
+
+- conf: This folder contains 2 files (taken from the kaldi for dummies tutorial. decode.config which has information related to the beam used in the decoding and mfcc.config which has to do with the feature extraction process.
