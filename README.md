@@ -1,4 +1,4 @@
-# kaldi_toy_example by Pedro Fonseca Esteves
+# kaldi_toy_example by Pedro Esteves
 Toy example inspired by kaldi for dummies.
 
 This tutorial is a very hands-on pratical introduction to kaldi (a modern toolkit used for ASR and other Speech Processing tasks). The only pre-requisite is having kaldi installed. 
