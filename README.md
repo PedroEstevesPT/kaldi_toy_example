@@ -14,7 +14,7 @@ Command to convert a directory of files to wav:
 for f in *.m4a; do ffmpeg  -i "$f" "${f/%m4a/wav}"; done
 ```
 
-Command to downsample(There is a need to create a tmp directory for the downsampling cause the same filename cannot be used as input and output file, otherwise an error will happen: 
+Command to downsample(There is a need to create a tmp directory for the downsampling cause the same filename cannot be used as input and output file, otherwise an error will happen): 
 ```
 mkdir tmp; for file in *.wav; do sox ${file} -r 16000 ./tmp/${file}; done 
 ```
