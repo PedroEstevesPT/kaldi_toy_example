@@ -32,14 +32,14 @@ for folder in data_folders:
         
         
         #Write to file
-        print(new_wavscp_content)
-        print("------------")
+        #print(new_wavscp_content)
+        #print("------------")
         new_wavscp_content.sort()
         new_file = open(filename,"w")#write mode 
-        print(new_wavscp_content)
+        #print(new_wavscp_content)
         for l in new_wavscp_content:
             new_file.writelines([l, '\n'])
-            print(l)
-            print("-------------------")
+            #print(l)
+            #print("-------------------")
         new_file.close() 
         
