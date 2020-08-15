@@ -7,7 +7,7 @@ It justs slightly deviates from the kaldi for dummies tutorial (https://kaldi-as
 
 Directories:
 
-- untouched : This directory contains 2 folders, **train** and **test** which have .m4a files recorded by me on my cellphone saying sequences of animal names in portuguese ( cão - dog , sapo - frog , gato - cat and leão - lion). IMPORTANTE NOTE - This recordings are .m4a and have 48k sample rate, in order to follow kaldi for dummies one must convert them to wav and downsampling. 
+- untouched : This directory contains 2 folders, **train** and **test** which have .m4a files recorded by me on my cellphone saying sequences of animal names in portuguese ( cão - dog , sapo - frog , gato - cat and leão - lion). IMPORTANTE NOTE - This recordings are .m4a and have 48kHz sample rate, in order to follow kaldi for dummies one must convert them to wav and downsample them to 16kHz.
 
 Command to convert a directory of files to wav: 
 ```
