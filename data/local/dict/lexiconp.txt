@@ -1,6 +1,0 @@
-!SIL 1.0	sil
-<UNK> 1.0	spn
-cão		1.0	k 6~w~
-gato	1.0	g a t u
-leão	1.0	l j 6~w~
-sapo	1.0	s a p u
