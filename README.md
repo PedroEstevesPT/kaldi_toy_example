@@ -7,4 +7,4 @@ It justs slightly deviates from the kaldi for dummies tutorial (https://kaldi-as
 
 Directories:
 
-- untouched : This directory contains 2 folders, train and data and has .m4a files recorded by me on my cellphone saying sequences of animal names in portuguese ( cão - dog , sapo - frog , gato - cat and leão - lion).
+- untouched : This directory contains 2 folders, **train** and **test** which have .m4a files recorded by me on my cellphone saying sequences of animal names in portuguese ( cão - dog , sapo - frog , gato - cat and leão - lion).
