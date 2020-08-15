@@ -23,7 +23,9 @@ for folder in data_folders:
         #Read file content
         for l in lines:
             utterance_id = l.strip()
-            full_path_to_audio_file = filename_prefix + "/pedro/" +  l.strip() + ".wav"
+	    utterance_id_without_spk = utterance_id.replace("pedro_","")
+
+            full_path_to_audio_file = filename_prefix + "/pedro/" +  utterance_id_without_spk + ".wav"
             line = utterance_id + " " + full_path_to_audio_file
             if len(line) < 2: continue
             new_wavscp_content.append(line)
