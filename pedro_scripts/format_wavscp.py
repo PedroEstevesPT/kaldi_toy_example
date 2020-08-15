@@ -10,7 +10,7 @@ current_path = os.getcwd()
 path = Path(os.getcwd())
 
 data_folders = ["train","test"]
-string_dir = str(path.parent) + str("/kaldi_toy_example/data")
+string_dir = str(path.parent) + str("/data")
 
 for folder in data_folders:
     filename_prefix = string_dir + "/" + folder 
