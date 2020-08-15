@@ -19,4 +19,4 @@ Command to downsample(There is a need to create a tmp directory for the downsamp
 mkdir tmp; for file in *.wav; do sox ${file} -r 16000 ./tmp/${file}; done 
 ```
 
-- data: This will be the directory used in the experiment with the data already downsampled and convert to wav. Untouched is only for pedagogic purposes.
+- data: This will be the directory used in the experiment with the data already downsampled and convert to wav. Untouched is only for pedagogic purposes. Inside this directory in the **train** and **test** folder there are already the 5 required files mentioned in the kaldi for dummies tutorial (spk2gender,wav.scp,text,utt2spk and corpus.txt)
