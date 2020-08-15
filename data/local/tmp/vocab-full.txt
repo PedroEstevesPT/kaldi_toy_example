@@ -1,0 +1,8 @@
+-pau-
+</s>
+<s>
+<unk>
+cão
+gato
+leão
+sapo

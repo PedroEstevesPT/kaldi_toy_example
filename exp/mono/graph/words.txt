@@ -1,0 +1,10 @@
+<eps> 0
+!SIL 1
+<UNK> 2
+cão 3
+gato 4
+leão 5
+sapo 6
+#0 7
+<s> 8
+</s> 9

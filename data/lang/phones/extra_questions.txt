@@ -1,0 +1,9 @@
+k_B 6~w~_B g_B a_B t_B u_B l_B j_B s_B p_B 
+k_E 6~w~_E g_E a_E t_E u_E l_E j_E s_E p_E 
+k_I 6~w~_I g_I a_I t_I u_I l_I j_I s_I p_I 
+k_S 6~w~_S g_S a_S t_S u_S l_S j_S s_S p_S 
+sil spn 
+sil_B spn_B 
+sil_E spn_E 
+sil_I spn_I 
+sil_S spn_S 

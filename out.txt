@@ -1,0 +1,5 @@
+pedro_cão_cão_cão_cão cão cão cão cão 
+pedro_cão_gato_cão_gato cão gato cão gato 
+pedro_leão_cão_cão_cão leão cão cão cão 
+pedro_sapo_cão_gato_leão2 cão sapo cão gato leão 
+pedro_sapo_gato_cão_leão sapo gato cão leão 

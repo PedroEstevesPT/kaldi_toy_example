@@ -1,0 +1,14 @@
+pedro_cão_sapo_leão_gato /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:27
+pedro_gato_cão_gato_cão /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:4260
+pedro_gato_gato_gato_gato /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:10547
+pedro_gato_gato_leão_gato /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:15860
+pedro_gato_leão_cão_gato /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:20783
+pedro_gato_leão_sapo_leão /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:24823
+pedro_gato_leão_sapo_sapo /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:28940
+pedro_gato_sapo_gato_sapo /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:32978
+pedro_leão_cão_gato_sapo /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:37706
+pedro_leão_leão_leão_leão /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:42138
+pedro_leão_leão_sapo_sapo /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:47426
+pedro_leão_leão_sapo_sapo2 /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:51662
+pedro_leão_sapo_leão_sapo /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:55949
+pedro_sapo_sapo_sapo_sapo /tmp/teste_kaldi/kaldi/egs/babel/kaldi_toy_example/mfcc/raw_mfcc_train.1.ark:60117
