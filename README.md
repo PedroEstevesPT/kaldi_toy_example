@@ -7,4 +7,10 @@ It justs slightly deviates from the kaldi for dummies tutorial (https://kaldi-as
 
 Directories:
 
-- untouched : This directory contains 2 folders, **train** and **test** which have .m4a files recorded by me on my cellphone saying sequences of animal names in portuguese ( cão - dog , sapo - frog , gato - cat and leão - lion).
+- untouched : This directory contains 2 folders, **train** and **test** which have .m4a files recorded by me on my cellphone saying sequences of animal names in portuguese ( cão - dog , sapo - frog , gato - cat and leão - lion). IMPORTANTE NOTE - This recordings are .m4a and have 48k sample rate, in order to follow kaldi for dummies one must convert them to wav and downsampling. 
+
+Command to convert a directory of files to wav: 
+  for f in *.m4a; do ffmpeg  -i "$f" "${f/%m4a/wav}"; done
+
+Command to downsample(There is a need to create a tmp directory for the downsampling cause the same filename cannot be used as input and output file, otherwise an error will happen: 
+  mkdir tmp; for file in *.wav; do sox ${file} -r 16000 ./tmp/${file}; done 
