@@ -2,6 +2,7 @@
 #
 # This script gets the duration of a corpus.
 #
+
 ln -s sph2pipe_bin/sph2pipe tmp_sph2pipe
 tmp="${1}corpus_size_tmp/"
 
@@ -22,3 +23,4 @@ done
 
 soxi -D $tmp/*.wav | awk '{s+=$1} END {print s " seconds"} '
 rm tmp_sph2pipe
+rm -r $tmp
