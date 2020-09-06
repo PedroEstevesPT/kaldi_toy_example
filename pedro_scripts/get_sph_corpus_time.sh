@@ -2,7 +2,7 @@
 #
 # This script gets the duration of a corpus.
 #
-ln -s sph2pipe/sph2pipe tmp_sph2pipe
+ln -s sph2pipe_bin/sph2pipe tmp_sph2pipe
 tmp="${1}corpus_size_tmp/"
 
 if [ ! -d $tmp ]; then
